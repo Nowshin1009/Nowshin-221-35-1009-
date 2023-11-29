@@ -7,7 +7,7 @@ import com.Nowshin.util.TakeInput;
 public class Women implements UICategory {
     @Override
     public void category() {
-        String categories[] = { "Saree", "Shoe", "Jewellery" };
+        String categories[] = {"T-Shirts", "Shirts", "Suits & Blazers"};
         Factory.getStyle().printMenu("Men", categories, false);
         int choice = TakeInput.takeChoice(categories.length);
         ProductBO productBO = Factory.getProductBO();
